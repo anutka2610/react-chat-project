@@ -1,0 +1,120 @@
+ul {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.header {
+  margin: 40px 0 40px 100px;
+  max-width: 1240px;
+  height: 67px;
+  background-color: white !important;
+}
+
+.logo {
+  width: 131px;
+  height: 67px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.toogles ul {
+  padding: 0 !important;
+}
+
+.toogle {
+  margin-right: 20px;
+}
+@media (max-width: 990px) {
+  .toogles .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    font-size: 14px !important;
+  }
+  .header {
+    margin: 20px 0 20px 0;
+  }
+
+  .left {
+    justify-content: left;
+  }
+  .header button {
+    margin-left: 20px;
+  }
+
+  .header .logo {
+    margin: 0 !important;
+  }
+  .toogles {
+    margin-left: 40px;
+  }
+  .toogle img {
+    width: 48px;
+    height: 26px;
+  }
+  .language img {
+    width: 48px;
+    height: 26px;
+  }
+}
+
+@media (max-width: 670px) {
+  .logo {
+    width: 70px;
+    height: 36px;
+  }
+  .toogles .navbar-nav {
+    flex-direction: row;
+  }
+  .nav-link {
+    font-size: 14px !important;
+  }
+  .toogle img {
+    width: 48px;
+    height: 26px;
+  }
+  .language img {
+    width: 48px;
+    height: 26px;
+  }
+  .header {
+    margin: 20px 0 20px 0;
+  }
+
+  .header .logo {
+    margin: 0 !important;
+  }
+  .img-chat p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .header span {
+    width: 25px;
+    height: 15px;
+  }
+
+  .toogles {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 363px) {
+  .toogles .navbar-nav {
+    flex-direction: row;
+  }
+  .logo {
+    width: 70px;
+    height: 36px;
+  }
+  .toogle img {
+    width: 48px;
+    height: 26px;
+  }
+  .language img {
+    width: 48px;
+    height: 26px;
+  }
+}
