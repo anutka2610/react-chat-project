@@ -3,72 +3,74 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
+//import "./Home.css";
+
 export default function Home() {
   return (
     <div>
       <div className="container-fluid">
         <Header />
         <main>
-          <div class="text-main">
-            <h1 class="text-left-main">Welcome to the Teamchat</h1>
-            <p class="text-left-main">
+          <div className="text-main">
+            <h1 className="text-left-main">Welcome to the Teamchat</h1>
+            <p className="text-left-main">
               Chat about a wide variety of tourist equipment. <br />
               Communicate, get good advice and choose!
             </p>
           </div>
         </main>
-        <div class="chats">
-          <h2 class="mb-5">Choose room for communication</h2>
-          <div class="row gap gy-1 d-flex justify-content-start">
-            <button class="btn col-6 col-md-4 col-xl-3 chat-home">
+        <div className="chats">
+          <h2 className="mb-5">Choose room for communication</h2>
+          <div className="row gap gy-1 d-flex justify-content-start">
+            <button className="btn col-6 col-md-4 col-xl-3 chat-home">
               <a href="common-chat.html" target="_blank">
-                <div class="img-chat chat1">
+                <div className="img-chat chat1">
                   <img
                     src="https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Foto%20tent_room1_DES.png"
-                    class="img-fluid mx-auto d-block"
+                    className="img-fluid mx-auto d-block"
                     alt="Tents, awnings, canopies"
                   />
                   <p>Tents, awnings, canopies</p>
                 </div>
-                <div class="row d-flex align-items-center justify-content-between chathome-icon">
-                  <div class="col">
+                <div className="row d-flex align-items-center justify-content-between chathome-icon">
+                  <div className="col">
                     <img
                       src="https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Icon%20people_DES.svg"
-                      class="img-fluid d-block"
+                      className="img-fluid d-block"
                       alt="icon people"
                     />
                   </div>
-                  <div class="col">
+                  <div className="col">
                     <img
                       src="https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Icon%20people%20online_DES.svg"
-                      class="img-fluid float-end"
+                      className="img-fluid float-end"
                       alt="icon people online"
                     />
                   </div>
                 </div>
               </a>
             </button>
-            <button class="btn col-6 col-md-4 col-xl-3 chat-home">
-              <div class="img-chat chat2">
+            <button className="btn col-6 col-md-4 col-xl-3 chat-home">
+              <div className="img-chat chat2">
                 <img
                   src="https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Foto%20backpack_room2_DES.png"
-                  class="img-fluid mx-auto d-block"
+                  className="img-fluid mx-auto d-block"
                   alt="Backpacks, clothes, shoes"
                 />
                 <p>Backpacks, clothes, shoes</p>
               </div>
-              <div class="row d-flex justify-content-between align-items-center chathome-icon">
-                <div class="col">
+              <div className="row d-flex justify-content-between align-items-center chathome-icon">
+                <div className="col">
                   <img
                     src="https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Icon%20people_DES.svg"
-                    class="img-fluid d-block"
+                    className="img-fluid d-block"
                     alt="icon people"
                   />
                 </div>
-                <div class="col">
+                <div className="col">
                   <img
                     src="https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/image_bucket/Content%20Home%20page/Desktop/Icon%20people%20online_DES.svg"
-                    class="img-fluid float-end"
+                    className="img-fluid float-end"
                     alt="icon people online"
                   />
                 </div>
